@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginBottom="4dp"
+        android:padding="3dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/selector_text_date_bg"
+        android:text="2018-5-3 18:11"
+        android:layout_gravity="center"
+        android:id="@+id/text_me_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_gravity="right"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text_me_msg"
+            android:background="@drawable/selector_text_me_msg_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_me_icon"
+            android:background="@drawable/me"
+            android:layout_width="49dp"
+            android:layout_height="49dp" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/text_me_name"
+            android:textSize="16sp"
+            android:text="irving"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
